@@ -1,7 +1,11 @@
-======================Run======================== \
-~/Downloads/KLTN$ python StyTR-2/test.py --content_dir data/cnt --style_dir data/sty --output data/results/StyTR-2 \
+All output Data is in data/results \
+
+===================Run Eval Metrics============== \
 ~/Downloads/KLTN$ python eval_metrics.py --target_dir data/results/AdaAttN --content_dir data/cnt_eval --style
 _dir data/sty_eval \
+
+======================Run======================== \
+~/Downloads/KLTN$ python StyTR-2/test.py --content_dir data/cnt --style_dir data/sty --output data/results/StyTR-2 \
 ~/Downloads/KLTN$ python pytorch-AdaIN/test.py --content_dir data/cnt --style_dir data/sty --output data/results/AdaIN --vgg pytorch-AdaIN/models/vgg_normalised.pth --decoder pytorch-AdaIN/models/decoder.pth \
 
 ======================Eval======================= \
